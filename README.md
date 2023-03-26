@@ -12,6 +12,6 @@ This script runs daily as a [GitHub Action](https://docs.github.com/en/actions) 
 
 ## Exploratory Data Analysis
 
-In [notebooks/eda.ipynb](https://github.com/datennerd/yt-trends-mining/blob/main/notebooks/eda.ipynb) you can see the results of the analysis for the period from 01.02.2021 to 22.02.2023 with almost 374.000 rows of data from 7480 csvs *(as of 22.02.2023)*.
+In [notebooks/eda.ipynb](https://github.com/datennerd/yt-trends-mining/blob/main/notebooks/eda.ipynb) you can see the results of the analysis for the period from 01.02.2021 to 17.03.2023 with almost 386.000 rows of data from 7800 csvs *(as of 26.03.2023)*.
 This notebook can currently only run locally and requires a credentials.json file from Google Cloud Platform to access the Google Cloud Storage Bucket.
 All CSV files are then downloaded and stored in a country-specific subfolder for analysis. An example CSV can be found in the notebooks folder.
